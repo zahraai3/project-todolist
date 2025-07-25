@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List</title>
+    <link href="style.css" rel="stylesheet"/>
+
+</head>
+<body>
+    <div class="project"  class="dark">
+        <button id="theme" onclick="changeTheme()">🌙 / ☀️</button>
+        <div class="container">
+            <div class="title">
+                <h1 id="title">To-Do-List </h1>
+                <img id="logo" src="images/logo.png" alt="">
+            </div>
+
+            <div class="Add">
+                <input type="text"  class="tasks" placeholder="Add your text here:">
+                <button type="button" id="submit" onclick="addTask()">Add</button>
+                <button type="button" id="star" onclick="importantTask()" title="Click here to add to the important task list">⭐</button>
+            </div>
+        
+
+           <ul class="list">
+            
+           </ul>
+
+         
+        </div>
+          <div class="secondcontain">
+            <div class="title2">
+                 <h1>Important-Tasks</h1>
+                 <img id="image2" src="/images/star.png" alt="">
+            </div>
+            <ul id="important">
+                
+                
+            </ul>
+          </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
