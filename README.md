@@ -46,3 +46,6 @@ This project is based on a tutorial but customized with my own ideas and extra f
 
 A small personal practice project to learn and improve my **HTML**, **CSS**, and **JavaScript** skills.
 
+## Live Server 
+-you can preview the site using this link url( https://zahraai3.github.io/project-todolist/)
+
